@@ -8,7 +8,11 @@ cd into directory, then run 'npm install'. Then 'npm start'.
 
 <h4>DB</h4>
 http://inloop.github.io/sqlite-viewer/ to view db
-sqlite commands:\n
-create table TABLE_NAME(a,b,c,d);\n
-.mode csv;\n
+
+sqlite commands:
+
+create table TABLE_NAME(a,b,c,d);
+
+.mode csv;
+
 .import "/Users/YOUR_USER_NAME/Downloads/FILENAME.csv" TABLE_NAME
